@@ -1,0 +1,99 @@
+/* صفحة التواصل */
+.tawasul-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: #0d47a1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tawasul-container h1 {
+  font-size: 1.8rem;
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #1976d2;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0d47a1;
+}
+
+.accounts {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #0d47a1;
+}
+
+.accounts a {
+  color: #1565c0;
+  text-decoration: none;
+}
+
+.accounts a:hover {
+  text-decoration: underline;
+}
+
+.tawasul-container h2 {
+  margin-top: 30px;
+  color: #1565c0;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #1976d2;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #0d47a1;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
