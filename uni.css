@@ -1,41 +1,36 @@
-body {
-    font-family: 'Tajawal', sans-serif;
-}
-
 /* Custom Font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 
 /* تنسيقات أساسية للصفحة */
 body {
     font-family: 'Tajawal';
-    background-color: #f8f9fa; /* خلفية فاتحة */
+    background-color: #f4f6f9;
     margin: 0;
     direction: rtl;
     text-align: right;
     line-height: 1.8;
-    color: #333;
+    color: #444;
 }
 
 /* تنسيقات الهيدر */
 .page-header {
-    background-color: #ffffff;
-    color: #333;
+    background-color: #17a2b8; /* لون أزرق سماوي */
+    color: #fff;
     text-align: center;
     padding: 3rem 1rem;
-    border-bottom: 3px solid #ffeb3b; /* لون أصفر مشرق */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .page-header h1 {
     font-size: 3rem;
     margin: 0;
-    color: #ffc107; /* لون أصفر جذاب */
+    color: #fff;
 }
 
 .page-header p {
     font-size: 1.2rem;
     margin: 0.5rem 0 0;
-    color: #555;
+    color: #e9ecef;
 }
 
 /* تنسيقات المحتوى الرئيسي */
@@ -45,54 +40,71 @@ body {
     padding: 0 1.5rem;
 }
 
-.article-section {
+.section-box {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.article-point {
-    margin-bottom: 2.5rem;
-}
-
-.article-point h2 {
-    font-size: 1.8rem;
-    color: #007bff; /* لون أزرق */
+.section-title {
+    font-size: 2rem;
+    color: #007bff;
     border-bottom: 2px solid #e9ecef;
     padding-bottom: 0.5rem;
     margin-top: 0;
 }
 
-.article-point p {
-    font-size: 1.1rem;
-    color: #444;
+.sub-section h3 {
+    font-size: 1.5rem;
+    color: #495057;
+    margin-top: 1.5rem;
 }
 
-/* تنسيقات الختام والمساحة الخاصة */
+.sub-section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.list-points {
+    list-style: none;
+    padding-right: 0;
+    margin-top: 1.5rem;
+}
+
+.list-points li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.bullet-point {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: #28a745;
+}
+
+.page-footer {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
 .closing-section, .special-space {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-top: 2rem;
+    text-align: center;
 }
 
-.closing-title {
-    font-size: 2rem;
-    color: #ff9800; /* لون برتقالي دافئ */
-    text-align: center;
+.closing-section h2, .special-space h2 {
+    color: #dc3545;
 }
 
 .closing-section p, .special-space p {
     font-size: 1.1rem;
-    text-align: center;
-}
-
-.special-space h2 {
-    font-size: 1.8rem;
-    color: #28a745; /* لون أخضر */
-    text-align: center;
 }
 
 /* تنسيقات للاستجابة على الشاشات الصغيرة */
@@ -100,17 +112,13 @@ body {
     .page-header h1 {
         font-size: 2.5rem;
     }
-    .page-content {
-        margin: 1rem auto;
-        padding: 0 1rem;
+    .section-title {
+        font-size: 1.8rem;
     }
-    .article-section, .closing-section, .special-space {
-        padding: 1.5rem;
+    .sub-section h3 {
+        font-size: 1.3rem;
     }
-    .article-point h2 {
-        font-size: 1.5rem;
-    }
-    .article-point p, .closing-section p, .special-space p {
+    .sub-section p, .list-points li, .closing-section p, .special-space p {
         font-size: 1rem;
     }
 }

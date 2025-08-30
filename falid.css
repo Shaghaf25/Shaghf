@@ -1,0 +1,167 @@
+/* Custom Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* تنسيقات أساسية للصفحة */
+body {
+    font-family: 'Tajawal';
+    background-color: #e9ecef; /* خلفية رمادية فاتحة جداً */
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* تنسيقات الهيدر */
+.page-header {
+    background-color: #343a40; /* لون رمادي داكن */
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffc107; /* لون أصفر جذاب */
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+    color: #f8f9fa;
+}
+
+/* تنسيقات المحتوى الرئيسي */
+.page-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.article-section, .quotes-section, .special-space {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.article-point {
+    margin-bottom: 2.5rem;
+}
+
+.article-point h2 {
+    font-size: 2rem;
+    color: #dc3545; /* لون أحمر لتسليط الضوء */
+    border-bottom: 2px solid #f8d7da;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.article-point p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.list-reasons {
+    list-style: none;
+    padding-right: 0;
+}
+
+.list-reasons li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.list-reasons strong {
+    color: #007bff; /* لون أزرق */
+}
+
+.question-text {
+    font-weight: bold;
+    color: #343a40;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* تنسيقات الاقتباسات */
+.quotes-section .section-title {
+    color: #28a745; /* لون أخضر */
+    text-align: center;
+}
+
+.quote-box {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.quote-box blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+    margin: 0 0 10px;
+}
+
+.quote-box cite {
+    display: block;
+    font-style: normal;
+    color: #888;
+}
+
+/* تنسيقات المساحة الخاصة */
+.special-space .section-title {
+    color: #17a2b8; /* لون أزرق سماوي */
+    text-align: center;
+}
+
+.special-space p {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.main-button {
+    display: block;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 450px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.telegram-button {
+    background-color: #0088cc; /* لون التليجرام الرسمي */
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+    transform: translateY(-3px);
+}
+
+/* تنسيقات للاستجابة على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    .article-point h2, .section-title {
+        font-size: 1.5rem;
+    }
+    .article-point p, .list-reasons li {
+        font-size: 1rem;
+    }
+    .quote-box blockquote {
+        font-size: 1.2rem;
+    }
+}

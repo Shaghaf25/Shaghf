@@ -1,0 +1,58 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: right;
+    color: #444;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.buttons a {
+    flex: 1 1 200px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.buttons a:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* ألوان الأزرار */
+.red { background-color: #e63946; }
+.yellow { background-color: #f1c40f; color: #000; }
+.green { background-color: #2ecc71; }
+.blue { background-color: #3498db; }
+

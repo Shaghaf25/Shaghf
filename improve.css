@@ -1,0 +1,183 @@
+/* Custom Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f0f4f8; /* Soft blue-gray */
+    color: #334e68; /* Dark gray text */
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings and Titles */
+header h1 {
+    font-size: 3rem;
+    color: #2a647d; /* Calming blue */
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #b3d1ff;
+}
+
+.topic {
+    position: relative;
+    padding-top: 20px;
+}
+
+.topic h2 {
+    font-size: 2rem;
+    color: #4a5568;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 25px;
+    border-right: 5px solid #b3d1ff;
+    padding-right: 15px;
+}
+
+.skill-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eaf1f8; /* Lighter blue-gray for sections */
+    border-radius: 15px;
+}
+
+.skill-section h3 {
+    font-size: 1.6rem;
+    color: #2a647d;
+    margin-bottom: 20px;
+}
+
+.emoji {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.emoji-small {
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #d16b8b; /* A touch of pink */
+    background-color: #ffe6f0;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+/* Lists and Text */
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #4a5568;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    line-height: 1;
+    color: #2a647d; /* Blue for list icons */
+}
+
+.icon-small {
+    font-size: 1.2rem;
+    color: #d16b8b;
+    margin-left: 5px;
+}
+
+/* Resource Buttons */
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.resource-button {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    flex-grow: 1;
+    min-width: 150px;
+}
+
+.resource-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.beginner {
+    background-color: #4caf50; /* Green */
+}
+
+.intermediate {
+    background-color: #ff9800; /* Orange */
+}
+
+.advanced {
+    background-color: red; /* Blue */
+}
+
+.telegram {
+    background-color: #0088cc; /* Telegram blue */
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: inline-block;
+    background-color: #d16b8b; /* A lovely pink */
+    color: #ffffff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(209, 107, 139, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(209, 107, 139, 0.4);
+    background-color: #c05f7e;
+}
+
+.private-space {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 2px solid #e0e6ed;
+    padding-top: 30px;
+}

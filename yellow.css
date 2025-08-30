@@ -1,0 +1,56 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #fffbea; /* خلفية فاتحة صفراء */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: right;
+    color: #f1c40f;
+}
+
+h2 {
+    color: #444;
+    margin-top: 30px;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+strong {
+    color: #f1c40f;
+}
+
+.back {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.back a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #f1c40f;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.back a:hover {
+    opacity: 0.85;
+}

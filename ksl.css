@@ -1,0 +1,138 @@
+/* Custom Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f0f4f8;
+    color: #334e68;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings and Titles */
+header h1 {
+    font-size: 3rem;
+    color: #2a647d;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #b3d1ff;
+    padding-bottom: 15px;
+}
+
+.topic h2 {
+    font-size: 1.7rem;
+    color: #4a5568;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #2a647d;
+}
+
+.emoji {
+    font-size: 2.5rem;
+}
+
+/* Paragraphs and Lists */
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #4a5568;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    line-height: 1;
+}
+
+.reasons li .icon {
+    color: #e57373; /* Pink color for reasons */
+}
+
+.how-to li .icon {
+    color: #4caf50; /* Green for tips */
+}
+
+.tech-tips li .icon {
+    color: #64b5f6; /* Blue for tech tips */
+}
+
+/* Special Elements */
+.link {
+    color: #2a647d;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px dashed #b3d1ff;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #1e4b5d;
+    border-bottom-color: #79a6d3;
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: inline-block;
+    background-color: #2a647d;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    background-color: #3b88a9;
+}
+
+.private-space {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 2px solid #e0e6ed;
+    padding-top: 30px;
+}
+
+.private-space h2 {
+    font-size: 1.5rem;
+    color: #4a5568;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

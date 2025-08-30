@@ -1,0 +1,164 @@
+
+/* Custom Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* تنسيقات أساسية للصفحة */
+body {
+    font-family: 'Tajawal';
+    background-color: #f4f6f9;
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* تنسيقات الهيدر */
+.page-header {
+    background-color: #007bff; /* لون أزرق جذاب */
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+    color: #e9ecef;
+}
+
+/* تنسيقات المحتوى الرئيسي */
+.page-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.section-box {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #343a40;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* تنسيقات الفقرات والقوائم */
+.section-box p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.list-points {
+    list-style: none;
+    padding-right: 0;
+    margin-top: 1.5rem;
+}
+
+.list-points li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.bullet-point {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: #007bff;
+}
+
+.closing-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.important-note {
+    background-color: #e8f5e9; /* خلفية فاتحة للقسم المهم */
+    border-left: 5px solid #28a745; /* خط جانبي أخضر */
+}
+
+/* تنسيقات للاستجابة على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    .section-title {
+        font-size: 1.8rem;
+    }
+    .section-box {
+        padding: 1.5rem;
+    }
+    .section-box p, .list-points li {
+        font-size: 1rem;
+    }
+}
+/* تنسيقات المساحة الخاصة */
+.special-space .section-title {
+    color: #17a2b8; /* لون أزرق سماوي */
+    text-align: center;
+}
+
+.special-space p {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.main-button {
+    display: block;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 450px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.telegram-button {
+    background-color: #0088cc; /* لون التليجرام الرسمي */
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+    transform: translateY(-3px);
+}
+
+/* تنسيقات للاستجابة على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    .article-point h2, .section-title {
+        font-size: 1.5rem;
+    }
+    .article-point p, .list-reasons li {
+        font-size: 1rem;
+    }
+    .quote-box blockquote {
+        font-size: 1.2rem;
+    }
+}

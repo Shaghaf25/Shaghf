@@ -1,0 +1,178 @@
+/* Custom Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f0f4f8; /* Light gray background */
+    color: #334e68; /* Dark gray text */
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings and Titles */
+header h1 {
+    font-size: 2.8rem;
+    color: #2a647d; /* A calming blue */
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #b3d1ff;
+}
+
+.topic {
+    position: relative;
+    padding-top: 20px;
+}
+
+.topic h2 {
+    font-size: 1.8rem;
+    color: #4a5568;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.topic h2::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 60px;
+    height: 3px;
+    background-color: #b3d1ff;
+}
+
+.emoji {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    opacity: 0.8;
+}
+
+.intro .emoji {
+    top: 5px;
+    right: 20px;
+    transform: none;
+}
+
+.emoji-small {
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+/* Lists and Text */
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #4a5568;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    line-height: 1;
+    color: #2a647d; /* Blue for list icons */
+}
+
+.final-note {
+    font-style: italic;
+    font-weight: bold;
+    color: #79a6d3;
+    margin-top: 30px;
+}
+
+/* Links and Buttons */
+.link {
+    color: #2a647d;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px dashed #b3d1ff;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #1e4b5d;
+    border-bottom-color: #79a6d3;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e57373; /* A soft red/pink color */
+    color: #ffffff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(229, 115, 115, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(229, 115, 115, 0.4);
+    background-color: #e85a5a;
+}
+
+/* Other Elements */
+.quote {
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #555555;
+    background-color: #eaf1f8;
+    border-right: 5px solid #b3d1ff;
+    padding: 20px 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+.private-space {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 2px solid #e0e6ed;
+    padding-top: 30px;
+}
+
+.private-space h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #4a5568;
+    margin-top: 0;
+}
+
+.private-space h2 .emoji {
+    position: static;
+    transform: none;
+    margin: 0 10px;
+}
