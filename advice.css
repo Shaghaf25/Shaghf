@@ -1,0 +1,139 @@
+body {
+    font-family: 'Tajawal';
+}
+
+/* Custom Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* تنسيقات أساسية للصفحة */
+body {
+    font-family:'Tajawal';
+    background-color: #f4f6f9; /* خلفية فاتحة ومريحة */
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* تنسيقات الهيدر */
+.page-header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 3px solid #6c757d; /* خط رمادي */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #343a40; /* لون رمادي داكن */
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+    color: #555;
+}
+
+/* تنسيقات المحتوى الرئيسي */
+.page-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.section-box {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #007bff; /* لون أزرق */
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* تنسيقات القوائم والنقاط */
+.list-points {
+    list-style: none;
+    padding-right: 0;
+    margin-top: 1.5rem;
+}
+
+.list-points li {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.bullet-point {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.list-points strong {
+    color: #333;
+}
+
+/* تنسيقات الختام */
+.section-box p {
+    font-size: 1.1rem;
+}
+
+/* تنسيقات زر التليجرام */
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.main-button {
+    display: block;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 450px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.telegram-button {
+    background-color: #0088cc; /* لون التليجرام الرسمي */
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+    transform: translateY(-3px);
+}
+
+/* تنسيقات للاستجابة على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    .section-title {
+        font-size: 1.8rem;
+    }
+    .section-box {
+        padding: 1.5rem;
+    }
+    .list-points li, .section-box p {
+        font-size: 1rem;
+    }
+    .main-button {
+        padding: 1.2rem;
+        font-size: 1.1rem;
+    }
+}
