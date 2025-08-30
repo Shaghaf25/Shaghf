@@ -1,1 +1,49 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
 
+
+ .channels-container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  color: #0d47a1;
+}
+
+.channels-container h1 {
+  font-size: 2rem;
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+.channel-section {
+  background-color: #e3f2fd;
+  border: 2px solid #90caf9;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.channel-section h2 {
+  font-size: 1.3rem;
+  color: #1565c0;
+  margin-bottom: 10px;
+}
+
+.channel-button {
+  display: block;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 6px auto;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 300px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.channel-button:hover {
+  background-color: #0d47a1;
+  transform: scale(1.03);
+}
